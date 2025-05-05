@@ -1,0 +1,8 @@
+CREATE TABLE pagamentos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT,
+  data_pagamento DATETIME DEFAULT CURRENT_TIMESTAMP,
+  comprovante_url VARCHAR(255),
+  status ENUM('feito', 'nao_feito') DEFAULT 'feito',
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);

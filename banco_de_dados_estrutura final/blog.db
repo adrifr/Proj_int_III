@@ -1,0 +1,7 @@
+CREATE TABLE blog (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  titulo VARCHAR(255),
+  conteudo TEXT,
+  imagem_url VARCHAR(255),
+  data_postagem DATETIME DEFAULT CURRENT_TIMESTAMP
+);

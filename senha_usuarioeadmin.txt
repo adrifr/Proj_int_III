@@ -1,0 +1,20 @@
+painel do usuario
+email:ashd@hfjf.com
+senha: 123456789
+
+painel do administrador
+email: admin@igreja.com
+senha: abc123456
+
+painel de usuario
+hdgsfkkk@kyyy.com
+
+senha: 4587625
+
+*****************************************
+
+Pasta script dar permissão 777 no caso do servidor linux.
+
+******************************************
+
+
